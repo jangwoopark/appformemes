@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="greeting">Welcome to the free version!</string>
+    <string name="app_name">App for memes - Free</string>
+    <string name="toast_text">Upgrade to the paid version to get a meme!</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

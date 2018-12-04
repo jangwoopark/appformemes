@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App for memes</string>
+    <string name="instructions">Press the button for a meme!</string>
+    <string name="button_text">Show meme</string>
+    <string name="action_settings">Database address</string>
+    <string name="appwidget_text">Quick Meme</string>
+    <string name="add_widget">Add widget</string>
+</resources>
