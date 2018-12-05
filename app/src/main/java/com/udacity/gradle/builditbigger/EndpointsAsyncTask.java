@@ -28,7 +28,7 @@ public class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
         if (myApiService == null) {  // Only do this once
             MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(), new AndroidJsonFactory(), null)
                     //.setRootUrl("http://10.0.2.2:8080/_ah/api/")
-                    .setRootUrl("http://yourfirebase.appspot.com/_ah/api/")
+                    .setRootUrl("http://yourfirebase/_ah/api/")
                     .setGoogleClientRequestInitializer(new GoogleClientRequestInitializer() {
                         @Override
                         public void initialize(AbstractGoogleClientRequest<?> request) throws IOException {
